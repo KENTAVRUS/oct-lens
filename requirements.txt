@@ -1,0 +1,4 @@
+torch>=2.10,<3
+torchvision>=0.25,<1
+Pillow>=12,<14
+customtkinter==5.2.2

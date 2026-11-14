@@ -1,0 +1,47 @@
+{
+  "split": "OCT2017_/test",
+  "samples": 968,
+  "class_names": [
+    "CNV",
+    "DME",
+    "DRUSEN",
+    "NORMAL"
+  ],
+  "class_counts": {
+    "CNV": 242,
+    "DME": 242,
+    "DRUSEN": 242,
+    "NORMAL": 242
+  },
+  "accuracy": 0.981404958677686,
+  "macro_f1": 0.9813411598552999,
+  "confusion_matrix": [
+    [
+      242,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      239,
+      0,
+      1
+    ],
+    [
+      11,
+      1,
+      227,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      242
+    ]
+  ],
+  "model_sha256": "145d6f1c03b4da225152a0bbfb0d648374b84957553e42a384dc5bf6a9dbc1cd",
+  "torch": "2.12.0+cpu",
+  "device": "cpu"
+}
